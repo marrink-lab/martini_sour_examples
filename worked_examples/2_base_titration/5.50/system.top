@@ -1,0 +1,13 @@
+#define pH5.50
+
+#include "../../force_fields/martini.itp"
+#include "../../force_fields/molecules.itp"
+
+[ System ]
+titratable aniline
+
+[ molecules ]
+ANIL     1 
+WNA   2021 
+H+    2021
+

@@ -1,0 +1,13 @@
+#define pH5.00
+
+#include "../../force_fields/martini.itp"
+#include "../../force_fields/molecules.itp"
+
+[ System ]
+titratable acetic acid
+
+[ molecules ]
+PPA     16
+WNA   1936
+H+    1952
+

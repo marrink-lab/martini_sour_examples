@@ -1,0 +1,64 @@
+                     :-) GROMACS - gmx analyze, 2021.3 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov     
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar       
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd        
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra      
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof      
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang      
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan        
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus        
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul     
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund       
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola       
+        Szilard Pall               Sander Pronk              Roland Schulz       
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers      
+       Peter Tieleman              Jon Vincent              Teemu Virolainen     
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov       
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx analyze, version 2021.3
+Executable:   /usr/local/gromacs-2021.3/bin/gmx
+Data prefix:  /usr/local/gromacs-2021.3
+Working dir:  /coarse/sami/titratable/titratable_martini_tutorial_files_worked/3_environment_dependent_pka_shifts/7.50/NpT
+Command line:
+  gmx analyze -f polystat.xvg -ee
+
+Using fixed parameters in curve fitting is temporarily not working.
+
+GROMACS reminds you: "Garbage Collecting..." (GNU Emacs)
+
+Read 5 sets of 2001 points, dt = 8
+
+                                      std. dev.    relative deviation of
+                       standard       ---------   cumulants from those of
+set      average       deviation      sqrt(n-1)   a Gaussian distribition
+                                                      cum. 3   cum. 4
+SS1   1.116883e+00   3.866329e-01   8.645375e-03      -0.024   -0.299
+SS2   1.156872e+00   2.525531e-02   5.647258e-04       0.568    0.679
+SS3   7.784683e-01   5.196760e-02   1.162031e-03       0.420    0.200
+SS4   6.598547e-01   3.506849e-02   7.841553e-04       0.051   -0.194
+SS5   5.405436e-01   3.809603e-02   8.518532e-04      -0.101   -0.121
+
+Set   1:  err.est. 0.240622  a 0.158705  tau1 2.15332  tau2 3684.55
+Set   2:  err.est. 0.00526429  a 0.145727  tau1 1.34538  tau2 406.855
+Set   3:  err.est. 0.0112653  a 1  tau1 376.123  tau2 381.888
+Warning: tau2 is longer than the length of the data (16000)
+         the statistics might be bad
+invalid fit:  e.e. 7.20646  a 0.48745  tau1 69.1665  tau2 6.59448e+08
+Will fix tau2 at the total time: 16000
+Set   4:  err.est. 0.0248473  a 0.762987  tau1 267.717  tau2 16091.7
+Set   5:  err.est. 0.00999893  a 0.133797  tau1 8.04699  tau2 635.31

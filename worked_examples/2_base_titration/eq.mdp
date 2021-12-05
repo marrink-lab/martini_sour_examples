@@ -1,0 +1,38 @@
+integrator               = sd
+tinit                    = 0.0
+dt                       = 0.01
+nsteps                   = 200000
+
+nstxout                  = 0
+nstvout                  = 0
+nstlog                   = 1000
+nstenergy                = 100
+nstxtcout                = 1000
+
+nstlist                  = 10
+rlist                    = 1.2
+
+coulombtype              = PME
+coulomb-modifier         = Potential-shift-verlet
+rcoulomb                 = 1.1
+epsilon_r                = 6
+vdw_type                 = cutoff  
+vdw-modifier             = Potential-shift-verlet
+rvdw                     = 1.1
+
+tcoupl                   = v_rescale
+tc-grps                  = system
+tau_t                    = 1.0  
+ref_t                    = 298.15
+Pcoupl                   = Berendsen 
+Pcoupltype               = isotropic
+tau_p                    = 3.0 
+compressibility          = 4.5e-5
+ref_p                    = 1.0
+
+gen_vel                  = yes
+gen_temp                 = 298.15
+gen_seed                 = -1
+
+lincs-order              = 8
+lincs-iter               = 2

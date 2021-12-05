@@ -1,0 +1,57 @@
+                     :-) GROMACS - gmx polystat, 2021.3 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov     
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar       
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd        
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra      
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof      
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang      
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan        
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus        
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul     
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund       
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola       
+        Szilard Pall               Sander Pronk              Roland Schulz       
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers      
+       Peter Tieleman              Jon Vincent              Teemu Virolainen     
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov       
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx polystat, version 2021.3
+Executable:   /usr/local/gromacs-2021.3/bin/gmx
+Data prefix:  /usr/local/gromacs-2021.3
+Working dir:  /coarse/sami/titratable/titratable_martini_tutorial_files_worked/3_environment_dependent_pka_shifts/6.00/NpT
+Command line:
+  gmx polystat -f traj_comp.xtc
+
+Reading file topol.tpr, VERSION 2021.3 (single precision)
+Select a group of polymer mainchain atoms:
+Group     0 (         System) has  6186 elements
+Group     1 (          Other) has  6186 elements
+Group     2 (            PPI) has   378 elements
+Group     3 (            WNA) has  3872 elements
+Group     4 (             H+) has  1936 elements
+Select a group: Group PPI consists of 1 molecules
+Group size per molecule, min: 378 atoms, max 378 atoms
+Reading frame       0 time    0.000   Reading frame       1 time    8.000   Reading frame       2 time   16.000   Reading frame       3 time   24.000   Reading frame       4 time   32.000   Reading frame       5 time   40.000   Reading frame       6 time   48.000   Reading frame       7 time   56.000   Reading frame       8 time   64.000   Reading frame       9 time   72.000   Reading frame      10 time   80.000   Reading frame      11 time   88.000   Reading frame      12 time   96.000   Reading frame      13 time  104.000   Reading frame      14 time  112.000   Reading frame      15 time  120.000   Reading frame      16 time  128.000   Reading frame      17 time  136.000   Reading frame      18 time  144.000   Reading frame      19 time  152.000   Reading frame      20 time  160.000   Reading frame      30 time  240.000   Reading frame      40 time  320.000   Reading frame      50 time  400.000   Reading frame      60 time  480.000   Reading frame      70 time  560.000   Reading frame      80 time  640.000   Reading frame      90 time  720.000   Reading frame     100 time  800.000   Reading frame     110 time  880.000   Reading frame     120 time  960.000   Reading frame     130 time 1040.000   Reading frame     140 time 1120.000   Reading frame     150 time 1200.000   Reading frame     160 time 1280.000   Reading frame     170 time 1360.000   Reading frame     180 time 1440.000   Reading frame     190 time 1520.000   Reading frame     200 time 1600.000   Reading frame     300 time 2400.000   Reading frame     400 time 3200.000   Reading frame     500 time 4000.000   Reading frame     600 time 4800.000   Reading frame     700 time 5600.000   Reading frame     800 time 6400.000   Reading frame     900 time 7200.000   Reading frame    1000 time 8000.000   Reading frame    1100 time 8800.000   Reading frame    1200 time 9600.000   Reading frame    1300 time 10400.000   Reading frame    1400 time 11200.000   Reading frame    1500 time 12000.000   Reading frame    1600 time 12800.000   Reading frame    1700 time 13600.000   Reading frame    1800 time 14400.000   Reading frame    1900 time 15200.000   Reading frame    2000 time 16000.000   Last frame       2000 time 16000.000   
+
+GROMACS reminds you: "There's Nothing We Can't Fix, 'coz We Can Do It in the Mix" (Indeep)
+
+Selected 2: 'PPI'
+
+Average end to end distance: 1.272 (nm)
+
+Average radius of gyration:  1.280 (nm)
